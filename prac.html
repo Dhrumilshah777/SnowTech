@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- animate css -->
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <!-- slick css -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- aos css -->
+    <link rel="stylesheet" href="./css/aos.css">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/prac.css">
+    <!-- media css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+    <!-- search bar -->
+    <section>
+        <div class="search-bar-main-main">
+            <div class="search-bar-content">
+                <div class="search-bar">
+                    <i id="search-input-icon" class="bi bi-search"></i>
+                    <input id="search-box" type="text" placeholder="Search Products" class="w-50">
+                </div>
+                <a href="#" id="search-close-icon"> <i class="bi bi-x-lg text-dark"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- search bar -->
+
+    <!-- shopping cart -->
+    <section>
+        <div class="shopping-cart-main">
+            <div class="shopping-cart-content-main">
+                <div class="shopping-cart-content d-flex align-items-center">
+                    <p class="mb-0 py-2">Shopping Cart</p>
+                    <a href="#" class="ms-auto" id="close-cart-icon"> <i class="bi bi-x-lg "></i></a>
+                </div>
+                <div class="wish-sentence text-center">
+                    <span class="ms-3 mt-4 d-inline-block">No Products in the cart.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shopping cart -->
+
+    <!-- User login  -->
+    <section>
+        <div class="form-main">
+            <div class="form-main-heading py-4 ps-3">
+                <a href="">Sign in</a>
+                <a href="#" id="user-close-icon"><i class="bi bi-x-lg"></i></a>
+            </div>
+            <div class="form-user-details mt-3 py-4 ps-4 pe-4">
+                <label class="" for="">Username or email <span class="text-danger">*</span></label>
+                <input class="d-block" id="username" type="text"> <br>
+
+                <label for="">Password <span class="text-danger">*</span> </label>
+                <input class="d-block" id="password" type="password">
+
+                <a class="d-inline-block mt-5" id="login" href="">Log in</a>
+                <a class="d-block text-center mt-3" id="lost-password" href="">Lost your password ?</a>
+
+                <!-- underline -->
+                <section>
+                    <div class="container py-5 p-5">
+                        <div class="row">
+                            <div class="border-sample"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- underline -->
+                <div class="create-account text-center">
+                    <span class="text-center">No account yet ?</span> <a href="">Create an Account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- User login  -->
+
+    <!-- menu list -->
+    <section class="">
+        <div class="menu-list-main">
+
+            <div class="menu-list-content d-flex align-items-center ">
+                <a id="menu-close-icon" class="ms-auto d-inline-block text-black" href=""><i
+                        class="fa-solid fa-xmark"></i></a>
+            </div>
+
+            <div class="menu-list-items mt-5">
+                <ul class="d-flex flex-column gap-3 ">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Best Seller</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Companies</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!-- menu list -->
+
+    <!--1st heading-main -->
+    <section>
+        <div class="navbar-header  py-2">
+            <div class="container">
+                <div class="navbar-main">
+                    <div class="row align-items-center">
+
+                        <div class="col-12">
+                            <div class="header-text text-white text-center">
+                                <span>15% off+ free jewelry box on orders above $200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 1st  heading-main -->
+
+    <!-- 3rd navbar -->
+    <section>
+        <div class="navbar-navbar shadow ">
+            <div class="container-fluid">
+                <div class="navbar-links ">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-4 d-flex col-7 justify-content-lg-start justify-content-end align-items-center"
+                            role="">
+                            <!-- <div class="categories-main">
+                                <i class="fa-solid fa-list d-inline-block"></i> 
+                                <span class="text-uppercase fs-6 ms-2">All Categories</span>
+                                <div class="categories-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Electronics <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Electronics Items</p>
+                                                <ul>
+                                                    <li>Phones</li>
+                                                    <li>Laptops</li>
+                                                    <li>Cameras</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Women <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Women's Clothing and Accessories</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Men <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Men's Clothing and Accessories</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Kitchen <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Kitchen Essentials</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Kids <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Kids' Products</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cafe <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Cafe Menu</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <a class="text-dark" id="menu-icon" href=""><i
+                                    class="fa-solid fa-bars d-lg-none d-block"></i></a>
+
+                            <div class="logo-main ">
+                                <a href=""><img class="img-fluid"
+                                        src="./images/678b66b9-bc09-4b60-9ea8-14bd09a6d186.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-lg-flex d-none me-lg-4 nav-links-main">
+                            <ul class="d-lg-flex nav-links align-items-center p-0 mb-0 gap-4">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Products</a></li>
+                                <li><a href="">Best Seller</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2  col-5 d-flex align-items-center justify-content-end" role="">
+                            <!-- <div class="new-arrivals-main">
+                                <span class="text-uppercase fs-6"> <i id="arrow-down"
+                                        class="fa-solid fa-chevron-down "></i>
+                                    New Arrivals </span>
+                                <div class="new-arrivals-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Electronics <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Electronics Items</p>
+                                                <ul>
+                                                    <li>Phones</li>
+                                                    <li>Laptops</li>
+                                                    <li>Cameras</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Women <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Women's Clothing and Accessories</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Men <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Men's Clothing and Accessories</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Kitchen <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Kitchen Essentials</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Kids <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Kids' Products</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cafe <i class="fa-solid fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <p>Cafe Menu</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <div class="nav-icons-main">
+                                <ul class="d-flex align-items-center mb-0  ">
+                                    <li><a id="search-icon" href=""> <i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </li>
+                                    <li><a id="cart-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                    <li><a id="user-icon" href=""><i class="fa-solid fa-user"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 3rd navbar -->
+
+
+
+    <!-- best seller heading-->
+    <section class="py-5" id="best-seller">
+        <div class="container">
+            <div class="best-seller-main">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-12 ">
+                        <div class="best-seller-content text-lg-start text-md-start text-center">
+                            <h2 class="mb-0">Best <span>Sellers</span></h2>
+                            <p class="mt-1">Most Loved Styles</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 mt-lg-0 mt-md-0 mt-3">
+                        <div
+                            class="navs-and-tabs-main d-flex justify-content-lg-end justify-content-md-end justify-content-center">
+                            <div class="tabs-container">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-home" type="button" role="tab"
+                                            aria-controls="pills-home" aria-selected="true">Men</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-profile" type="button" role="tab"
+                                            aria-controls="pills-profile" aria-selected="false">Women</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best seller heading -->
+
+    <!-- best seller content -->
+    <section class="mb-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <!-- for mens -->
+                            <div class="row center">
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="./images/men-img-1.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="./images/men-img-2.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="./images/men-img-3.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="./images/men-img-1.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="./images/men-img-2.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- for mens -->
+                        </div>
+                        <!-- for womens -->
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            <div class="row center">
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="./images/women-img-4.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="/images/women-img-2.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="./images/women-img-3.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="./images/women-img-4.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 img-1">
+                                    <img class="img-fluid img-img-1" src="/images/women-img-2.webp" alt="">
+                                    <div class="best-seller-item">
+                                        <span>#AM61</span>
+                                        <p class="mt-2">Super Combed Cotton Rich Pique Hoddie Jacket with Ribbed C...
+                                        </p>
+                                        <div class="item-price  d-flex align-items-center">
+                                            <span class="d-inline-block">$1999.0</span>
+                                            <a href="" class="ms-auto me-lg-0 me-md-0  d-inline-block"><i
+                                                    class="bi bi-bag-plus-fill me-lg-1 me-md-1 me-0"></i> <span
+                                                    class="d-lg-inline-block d-md-none d-none"> Add To Bag</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- for womens -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best seller content -->
+    
+
+    <!-- <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#men" type="button" role="tab">Home</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#women" type="button" role="tab">Profile</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="men" role="tabpanel" tabindex="0">
+                            <div class="men-slider">
+                                <div>1</div>
+                                <div>2</div>
+                                <div>3</div>
+                                <div>4</div>
+                                <div>5</div>
+                                <div>6</div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="women" role="tabpanel" tabindex="0">
+                            <div class="women-slider">
+                                <div>10</div>
+                                <div>11</div>
+                                <div>12</div>
+                                <div>13</div>
+                                <div>14</div>
+                                <div>15</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+   
+    <!-- companies -->
+
+    <!-- companies -->
+
+
+    <!-- jquery -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/prac.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
+
+
+    <!-- gsap menu  -->
+    <script>
+        var menu = document.querySelector("#menu-icon")
+        var cross = document.querySelector("#menu-close-icon")
+        {
+            var lt = gsap.timeline()
+
+            lt.to(".menu-list-main", {
+                right: "0",
+                duration: 0.3,
+
+            });
+          
+            lt.from(".menu-list-content a", {
+                opacity: 0
+            });
+            lt.from(".menu-list-items ul li", {
+                x: 90,
+                duration: 0.3,
+                stagger: 0.3,
+                opacity: 0
+            });
+            lt.pause();
+
+            menu.addEventListener("click", function () {
+                lt.play();
+            });
+            cross.addEventListener("click", function () {
+                lt.reverse();
+            })
+        }
+    </script>
+    <!-- gsap menu  -->
+
+    <!-- aos script -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- aos script -->
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- gsap -->
+
+    <!-- for mens -->
+    <!-- <script>
+        $('.responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            arrows: false,
+            draggable: true,
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            prevArrow: '<button class="slick-prev custom-prev"><i class="fa fa-chevron-left"></i></button>',
+            nextArrow: '<button class="slick-next custom-next"><i class="fa fa-chevron-right"></i></button>',
+            dotsClass: 'slick-dots custom-dots', // Custom class for dots
+
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    </script> -->
+
+    <!-- <script>
+        $('.center').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            arrows: false,
+            draggable: true,
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            // centerMode: true,
+            centerPadding: '150px',
+            prevArrow: '<button class="slick-prev custom-prev"><i class="fa fa-chevron-left"></i></button>',
+            nextArrow: '<button class="slick-next custom-next"><i class="fa fa-chevron-right"></i></button>',
+            dotsClass: 'slick-dots custom-dots', // Custom class for dots
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        // centerMode: true,
+                        centerPadding: '140px',
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        // centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script> -->
+    <script>
+        $('.center').slick({
+            dots: true,
+            centerMode: true,
+            centerPadding: '60px',
+            arrows: false,
+            infinite: true,
+            speed: 300,
+            autoplay: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            prevArrow: '<button class="slick-prev custom-prev"><i class="fa fa-chevron-left"></i></button>',
+            nextArrow: '<button class="slick-next custom-next"><i class="fa fa-chevron-right"></i></button>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <!-- for mens -->
+
+    <script>
+        $(document).ready(function () {
+            $("#menu-icon").click(function () {
+                $(".menu-list-main").addClass("menu-list-main-transform");
+                return false;
+            });
+            $("#menu-close-icon").click(function () {
+                $(".menu-list-main").removeClass("menu-list-main-transform");
+                return false;
+            });
+        });
+        // menu
+    </script>
+
+   
+
+    <script>
+        $('.men-slider').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+        $('.women-slider').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+
+
+</body>
